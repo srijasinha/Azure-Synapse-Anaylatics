@@ -31,3 +31,14 @@ Ans- Let you use SQL without having to reserve capacity.Every workspace comes wi
 solution- upload he dat in linked service->In develop(create a sql script)(connected to Buit in)
 OpenRowSet() function allows you to access files in azure storage and return the content as set of rows.
 This Data can be visualized by switching Table to chart view.
+
+2)Dedicated SQL Pool -It conumes billable resources if it is active.You can pause the pool to reduce the cost.
+Dedicated SQl pool is associated with dedicated SQL DB.
+solution- create a new Dedicated SQL Pool ->upload he dat in linked service->In develop(create a sql script)(connected to Dedicated SQL Pool)
+
+3)How to anylase data in serverless Spark pool in Azure synapse Anlytics-
+Spark is a technology used for BIGData analytics
+Inside spark we have clusters- Group of virtual machines.These VM will be called as nodes in case of spark.
+Based on Data spark pool will decide how many nodes should be get used
+In synapse we will crease a spark pool. ->Notebook will have logic.
+Solution:-Create a spark Pool->In develop(create a Notebook)(connected to Spark Pool)
