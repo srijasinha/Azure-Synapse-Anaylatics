@@ -1,0 +1,15 @@
+Azure Synapse Anlaytics will bring both Azure Datawarehouse and Big Data Warehousing together.
+It is a single service ,combination of ADF, ADLS(Azure data lake storage),ADB - Azure DataBicks, SQL DB  AND File system in ADLS Gen2
+Fundamentals Topics:
+1)Azure  Synapse Workspace: we can perform data warehouse activity,ETL operations,all cloud based activity, data engineering., Data Transformation Logics.
+It contains  File system and ADLS Gen2. We can run SQL quruies directly of run Notebooks directly throgh SQL pool.
+2)Linked Service: Its a connection string that connect the workspace with external resources.
+3)Synapse SQL -It is abality to do T- SQL based anaylitics in synapse workspace.Synapse SQL pool helps to run sql scripts.
+Sql Pools has two types of consumption  models- 1)serverless - It uses to run sql queries automitically /(Built in feature).It is going to use for the physical resources for a time only when we run the query.
+2)Dedicated-
+
+Praactical:-
+We need to create new Azure Synapse Anlaytics workspace.It will ask Data Lake storage Gen2
+Azure Data Lake Storage Gen2 (ADLS Gen2) - is a cloud-based data storage service built on Azure Blob Storage, designed for big data analytics.
+We use Azure synapse studio
+
