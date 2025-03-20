@@ -3,10 +3,23 @@ It is a single service ,combination of ADF, ADLS(Azure data lake storage),ADB - 
 Fundamentals Topics:
 1)Azure  Synapse Workspace: we can perform data warehouse activity,ETL operations,all cloud based activity, data engineering., Data Transformation Logics.
 It contains  File system and ADLS Gen2. We can run SQL quruies directly of run Notebooks directly throgh SQL pool.
+
 2)Linked Service: Its a connection string that connect the workspace with external resources.
+
 3)Synapse SQL -It is abality to do T- SQL based anaylitics in synapse workspace.Synapse SQL pool helps to run sql scripts.
-Sql Pools has two types of consumption  models- 1)serverless - It uses to run sql queries automitically /(Built in feature).It is going to use for the physical resources for a time only when we run the query.
-2)Dedicated-
+Sql Pools has two types of consumption  models- 
+1)serverless - It uses to run sql queries automitically /(Built in feature).Workspace will use for the physical resources for a time only when we run the query.
+2)Dedicated- We are keeping the physical resources always available even we are not running the query.We can crete a new Dedicated SQL Pool. 
+
+4)Apache synapse for sparks:- We can run spark jobs.We can create apache spark pools in a workspace.
+Two ways to use spark in synapse- 
+1)Spark Notebook-For using data science and data enginner using scale, spark SQL,c#
+2)Spark Job Notification-For running batch spark jobs using jar files.
+
+5)Pipelines- Pipeline are logical group of activities that perform task together. 
+a)Trigger
+b)Dataset
+c)Data Flows
 
 Praactical:-
 We need to create new Azure Synapse Anlaytics workspace.It will ask Data Lake storage Gen2
