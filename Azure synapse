@@ -26,3 +26,6 @@ We need to create new Azure Synapse Anlaytics workspace.It will ask Data Lake st
 Azure Data Lake Storage Gen2 (ADLS Gen2) - is a cloud-based data storage service built on Azure Blob Storage, designed for big data analytics.
 We use Azure synapse studio
 
+1)How to anylase data in serverless SQL pool in Azure synapse Anlytics
+Ans- Let you use SQL without having to reserve capacity.
+
