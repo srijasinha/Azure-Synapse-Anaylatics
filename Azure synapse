@@ -55,3 +55,12 @@ solution- crate a new pipeline->Notebook->make changes in settings(select notebo
 6)Monitor Pipelines,trigger runs,sql activities ,apache spark activitiess
 solution- Got to Monitor tab and check all details
 
+7)How to add an administrator to ASA?
+1)RBASC- Rose Based Aces control- (Azure workspace Role based acess)
+Azure portal->Acess control(IAM)- under this section we can add RBAC->Add roll assignment
+2)Synapse based RBASC- Synapse administration role for workspace
+Open Azure synapse Anylatics->Managment tab->Acess control->Add_>workspace->synapse Administrator->user name
+3)Axure RBAC-- Below role assignments on the workspace's primary storage
+Azure portal->primary storage portal->Acess control(IAM)-add roles->owner and ->Storage Blob data contributer
+4)Dedicated SQL Pool
+Add db_owner role
