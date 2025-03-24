@@ -42,3 +42,16 @@ Inside spark we have clusters- Group of virtual machines.These VM will be called
 Based on Data spark pool will decide how many nodes should be get used
 In synapse we will crease a spark pool. ->Notebook will have logic.
 Solution:-Create a spark Pool->In develop(create a Notebook)(connected to Spark Pool)
+
+4)Analyze data in storage accont in Azure synapse Anylatics
+a)create a csv file and parquet files in storage account 
+b)Analyze data from thaat files
+solution- crate a notebook ->write code in pyspark to generate csv file -  df= sparrk.sql("select * from tablename")
+Attach the notebook to serveless Spark pool
+
+5) How to Integrate Pipeline in ASA (Azure synapse Anylatics)
+solution- crate a new pipeline->Notebook->make changes in settings(select notebook which you want to run)->Run this pipeline-<Shedule this pipeline
+
+6)Monitor Pipelines,trigger runs,sql activities ,apache spark activitiess
+solution- Got to Monitor tab and check all details
+
